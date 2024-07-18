@@ -13,10 +13,8 @@ namespace ExParcelles.Classes
         private DateTime _date_fin;
         private float _qte_recoltee;
 
-        private Parcelle _parcelle;
         private int _id_parcelle;
 
-        private Production _production;
         private int _id_production;
 
         static private int _id_count = 0;
@@ -36,9 +34,7 @@ namespace ExParcelles.Classes
             Date_fin = date_fin;
             Qte_recoltee = qte_recoltee;
 
-            _parcelle = parcelle;
             _id_parcelle = parcelle.Id_parcelle;
-            _production = production;
             _id_production = production.Id_production;
         }
     }

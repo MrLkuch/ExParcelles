@@ -8,13 +8,13 @@ namespace ExParcelles.Classes
 {
     internal class Unite
     {
-        private String _val_unite;
+        private String _un;
 
-        public String Val_unite { get => _val_unite; set => _val_unite = value; }
+        public String Un { get => _un; set => _un = value; }
 
         public Unite(String val_unite)
         {
-            Val_unite = val_unite;
+            Un = val_unite;
         }
     }
 }
